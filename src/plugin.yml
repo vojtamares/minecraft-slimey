@@ -1,0 +1,18 @@
+# Author
+author: Aca_ aka Vojtěch Mareš
+website: https://vojtamares.com
+
+# Plugin head
+name: Slimey
+main: com.vojtamares.minecraft.plugin.slimey.Slimey
+description: Simple utility that tells a player if he is standing inside a slime chunk or not.
+
+# Plugin customs
+version: 1.0.0
+api-version: 1.14
+
+commands:
+  slimey:
+    description: Tell if a player is standing inside a slime chunk or not.
+    usage: /slimey
+    permission: slimey.toggle
